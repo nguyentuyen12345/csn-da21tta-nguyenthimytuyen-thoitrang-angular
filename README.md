@@ -1,2 +1,2 @@
-# csn-da21tta-nguyenthimytuyen-thoitrang-angular
-tìm hiểu angular và ứng dụng thiết kế website bán thời trang 
+<h1 align="center"><a href="github.com/nguyentuyen12345/csn-da21tta-nguyenthimytuyen-thoitrang-angular">Tìm hiểu Angular và ứng dụng thiết kế website bán hàng thời trang</a></h1>
+<p align="center">
