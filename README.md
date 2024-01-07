@@ -1,4 +1,4 @@
-# Ecommerce
+# THOITRANG
 
 Dự án này được tạo bằng [Angular CLI](https://github.com/angular/angular-cli) phiên bản 15.2.1.
 
