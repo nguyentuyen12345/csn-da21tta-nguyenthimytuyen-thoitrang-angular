@@ -1,0 +1,121 @@
+<header>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom border-top ">
+    <div class="container">
+      <a class="navbar-brand fs-2 fw-bold " href="#"><i class="fa fa-cart-shopping fs-2"
+
+         style="color: #f54242;"></i><span class="textBlur">Fashion Shop Now </span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!--Toggle  -->
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <!-- Nav Items -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0  text-center ">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase  me-1 text-danger" href="#"
+            routerLink="trangchu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Trang chủ
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+         THỜI TRANG NAM
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="i" href="#"routerLink="aosomi">Áo Sơ Mi</a></li>
+              <li><a class="i" href="#"routerLink="quannam">Quần Nam</a></li>
+
+              <li><a class="i" href="#"routerLink="aothun">Áo Thun</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown fw-semibold text-uppercase text-black  me-1">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Thời Trang Nữ
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="i" href="#"routerLink="setdonu">Set Đồ Nữ</a></li>
+              <li><a class="i" href="#"routerLink="damvavay">Đầm & Váy</a></li>
+
+              <li><a class="i" href="#"routerLink="quannu">Quần nữ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Phụ kiện
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="i" href="#"routerLink="phukien">Nam</a></li>
+              <li><a class="i" href="#"routerLink="phukiennu">Nữ</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown fw-semibold text-uppercase text-black  me-1">
+            <a class="nav-link dropdown-toggle fw-semibold text-uppercase text-black  me-1" href="#" id="navbarDropdown"
+              role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          ĐĂNG KÝ/ĐĂNG NHẬP
+
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="i" href="#"routerLink="dangky">Đăng ký</a></li>
+              <li><a class="i" href="#"routerLink="dangnhap">Đăng nhập</a></li>
+            </ul>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle cart fw-semibold text-uppercase text-black  me-1" href="#"
+              id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa fa-cart-shopping fs-5" style="color: #202122;"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<section id="product">
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
+</section>
+<aside class="col-md-3 bg-secondary"></aside>
+
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Thông tin liên hệ</h3>
+        <p>FB:Nguyễn Thị Mỹ Tuyền</p>
+        <p>Email:nguyentuyen12122003@gmail.com </p>
+        <p class="fa-solid fa-phone" style="color: #202122;"> :052-8358-715</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Chính Sách Khách Hàng</h3>
+        <ul>
+          <li><a routerLink="/">- Chính Sách KH Thân Thiết</a></li>
+          <li><a routerLink="/products">- Chính Sách Đổi và Trả Hàng</a></li>
+          <li><a routerLink="/about">- Chính Sách Bảo Hành</a></li>
+          <li><a routerLink="/about">- Hướng Dẫn Sử Dụng</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Thông Tin Cửa Hàng</h3>
+        <ul>
+          <li><a routerLink="/">Đường Sơn Thông,Khóm 1,Phường 7, TP Trà Vinh </a></li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+

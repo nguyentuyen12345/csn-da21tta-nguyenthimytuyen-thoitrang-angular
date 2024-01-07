@@ -1,0 +1,58 @@
+.hinh1{
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 350px;
+  height: auto;
+  list-style: none;
+
+}
+.v{
+  line-height: 10px;
+  text-align: center;
+  text-align:right;
+}
+
+.v{
+  height:20px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+}
+.s{
+  background-color: #aaafac;
+  color: rgb(15, 15, 1);
+  padding: 5px 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 6px 4px;
+  transition-duration: 0.3s;
+}
+.s:hover{
+  border-radius: 8px;
+  background-color: #e26b6b;
+  color: rgb(113, 21, 21);
+}
+.s{
+  text-align: center;
+  text-align:right;
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

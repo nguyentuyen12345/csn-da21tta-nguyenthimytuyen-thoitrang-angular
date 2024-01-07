@@ -1,0 +1,21 @@
+.hinh1{
+  margin-right: 10px;
+  margin-left: 30px;
+  width: 300px;
+  height: auto;
+  list-style: none;
+
+}
+.z{
+  line-height: 10px;
+  text-align: center;
+  text-align:right;
+}
+
+.z{
+  height:20px;
+  display: flex;
+  align-items: center;
+justify-content: center;
+
+}

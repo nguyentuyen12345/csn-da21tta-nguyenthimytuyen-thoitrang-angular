@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 100;
+            padding: 100;
+            background-color: #f4f4f4;
+        }
+
+        .registration-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #a6cd09;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="registration-container">
+        <h2>Form Đăng Ký</h2>
+        <form action="#" method="post">
+            <label for="username">Tên đăng ký:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email/sđt:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Mật khẩu:</label>
+            <input type="password" id="password" name="password" required>
+            <label for="username">Địa chỉ:</label>
+            <button> đăng ký</button>
+            <input type="text" id="username" name="username" required>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('profile-image').addEventListener('change', function (e) {
+            var preview = document.getElementById('image-preview');
+            preview.src = URL.createObjectURL(e.target.files[0]);
+        });
+    </script>
+</body>
+</html>

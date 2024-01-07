@@ -1,0 +1,30 @@
+.hinh1{
+  margin-right: 10px;
+  margin-left: 25px;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+.chu{
+  height: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chu {
+  line-height:1;
+  text-align: center;
+}
+
+.t{
+  height: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+
